@@ -50,7 +50,7 @@ function sendNotification(order) {
 
     const mailOptions = {
         from: 'blackboxcreative42@gmail.com',
-        to: `nirmal@blackis.in`, // Seller's email
+        to: `priyanshu@blackis.in`, // Seller's email
         subject: `New Order #${order.id}`,
         text: `You have a new order containing your product.
                 The product name is : ${order.line_items[0].title}
